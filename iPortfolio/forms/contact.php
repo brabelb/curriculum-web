@@ -7,6 +7,6 @@
   $message = $_POST["message"];
   $contenido = "Nombre: " . $name . "\nEmail: " . $email . "\nAsunto: " . $subjet . "\nMensaje: " . $message; //Concatenamos las variables.  
   mail($destino, $subjet, $contenido); //Instruccion para enviar el mail
-  //header("Location:gratitude.html");   //para que nos direccione a otra pagina de agradecimiento
+  header("Location:index/gratitude.html");   //para que nos direccione a otra pagina de agradecimiento
 
 ?>

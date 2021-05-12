@@ -28,7 +28,6 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
 </head>
 
 <body>
@@ -599,11 +598,11 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form">
+            <form action="forms/contact.php" method="post">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Nombre</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
+                  <input type="text" class="form-control" name="name" required>
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Email</label>
@@ -617,11 +616,8 @@
               <div class="form-group">
                 <label for="name">Mensaje</label>
                 <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Cargando</div>
-              </div>
-              <div class="text-center"><button type="submit">Enviar</button></div>
+              </div><br>
+              <div class="text-center"><input type="submit" value="Enviar" id="boton"></div>
             </form>
           </div>
 

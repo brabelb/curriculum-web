@@ -28,6 +28,24 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.email-sent{
+  height: 250px;
+  width: 250px;
+  display:block;
+  margin:auto;
+  margin-bottom: 40px;
+}
+
+.txt-email-sent{
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.boton-centrado{
+  text-align: center;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
